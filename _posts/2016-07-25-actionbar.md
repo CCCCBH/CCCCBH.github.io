@@ -6,6 +6,7 @@ categories: jekyll update
 ---
 # ActionBar #
 ## 在ActionBar上添加按钮 ##
+
 	<!--如果ActionBar空间足够则显示-->
     android:showAsAction="ifRoom"
     <!--一直显示在ActionBar上-->
