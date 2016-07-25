@@ -73,7 +73,6 @@ categories: jekyll update
 	2. Ctrl+Shift+Alt+N				可以快速打开符号
 	3. Ctrl+Shift+Space				在很多时候都能够给出Smart提示
 	4. Alt+F3						可以快速寻找
-	14. Alt+F8						可以计算变量值
 	5. Ctrl+/ and Ctrl+Shift+/		可以注释代码
 	6. Ctrl+Alt+B					可以跳转到抽象方法的实现
 	7. Ctrl+O						可以选择父类的方法进行重写
@@ -83,3 +82,4 @@ categories: jekyll update
 	11. Ctrl+Shift+F7				可以高亮当前元素在当前文件中的使用
 	12. Ctrl+Alt+Up/Down			可以快速跳转搜索结果
 	13. Ctrl+Shift+J				可以整合两行
+	14. Alt+F8						可以计算变量值
