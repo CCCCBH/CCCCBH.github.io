@@ -61,7 +61,7 @@ categories: jekyll update
 	10. Ctrl+W					可以选择单词继而语句继而行继而函数
 	11. Alt+F1					可以将正在编辑的元素在各个面板中定位
 	12. Ctrl+P					可以显示参数信息
-	13. Ctrl+Shift+nsert		可以选择剪贴板内容并插入
+	13. Ctrl+Shift+Insert		可以选择剪贴板内容并插入
 	14. Alt+Insert				可以生成构造器/Getter/Setter等
 	15. Ctrl+Alt+V 				可以引入变量。例如把括号内的SQL赋成一个变量
 	16. Ctrl+Alt+T				可以把代码包在一块内，例如try/catch
@@ -73,6 +73,7 @@ categories: jekyll update
 	2. Ctrl+Shift+Alt+N				可以快速打开符号
 	3. Ctrl+Shift+Space				在很多时候都能够给出Smart提示
 	4. Alt+F3						可以快速寻找
+	14. Alt+F8						可以计算变量值
 	5. Ctrl+/ and Ctrl+Shift+/		可以注释代码
 	6. Ctrl+Alt+B					可以跳转到抽象方法的实现
 	7. Ctrl+O						可以选择父类的方法进行重写
@@ -82,4 +83,3 @@ categories: jekyll update
 	11. Ctrl+Shift+F7				可以高亮当前元素在当前文件中的使用
 	12. Ctrl+Alt+Up/Down			可以快速跳转搜索结果
 	13. Ctrl+Shift+J				可以整合两行
-	14. Alt+F8						可以计算变量值
