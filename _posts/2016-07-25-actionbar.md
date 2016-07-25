@@ -53,7 +53,6 @@ categories: jekyll update
 	        android:text="Right" />
 	</LinearLayout>
 
-----------
 在onCreate方法中调用下列方法创建一个自定义的actionbar
 
 	getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
