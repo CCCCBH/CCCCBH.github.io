@@ -36,8 +36,9 @@ categories: jekyll update
 	29. Alt+ Up/Down	在方法间快速移动定位
 	30. Ctrl+Shift+Up/Down代码向上/下移动。
 	31. F2 或 Shift+F2	高亮错误或警告快速定位
-> 
-	
+
+----------
+
 	1. 代码标签输入完成后，按Tab，生成代码。
 	2. 选中文本，按Ctrl+Shift+F7 ，高亮显示所有该文本，按Esc高亮消失。
 	3. Ctrl+W 选中代码，连续按会有其他效果
