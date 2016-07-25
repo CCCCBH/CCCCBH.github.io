@@ -5,6 +5,7 @@ date:   2016-07-23 18:01:09 +0800
 categories: jekyll update
 ---
 # ActionBar #
+
 ## 在ActionBar上添加按钮 ##
 
 	<!--如果ActionBar空间足够则显示-->
@@ -17,6 +18,7 @@ categories: jekyll update
     android:showAsAction="withText"
 
 ## 自定义ActionBar ##
+
 ### 方法1 ###
 创建一个actionbar.xml
 
