@@ -35,7 +35,7 @@ categories: jekyll update
 	28. Alt+ left/right			切换代码视图
 	29. Alt+ Up/Down			在方法间快速移动定位
 	30. Ctrl+Shift+Up/Down		代码向上/下移动。
-	31. F2 或 Shift+F2			高亮错误或警告快速定位
+	31. F2 or Shift+F2			高亮错误或警告快速定位
 
 ----------
 
