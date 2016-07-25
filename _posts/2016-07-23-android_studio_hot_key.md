@@ -6,15 +6,15 @@ categories: jekyll update
 ---
 
 ## Android Studio 快捷键 ##
-	1. Alt+Enter					导入包,自动修正
-	2. Ctrl+N						查找类
-	3. Ctrl+Shift+N					查找文件
-	4. Ctrl+Alt+L					格式化代码
-	5. Ctrl+Alt+O					优化导入的类和包
-	6. Alt+Insert					生成代码(如get,set方法,构造函数等)
-	7. Ctrl+E or Alt+Shift+C		最近更改的代码
-	8. Ctrl+R						替换文本
-	9. Ctrl+F						查找文本
+	01. Alt+Enter					导入包,自动修正
+	02. Ctrl+N						查找类
+	03. Ctrl+Shift+N					查找文件
+	04. Ctrl+Alt+L					格式化代码
+	05. Ctrl+Alt+O					优化导入的类和包
+	06. Alt+Insert					生成代码(如get,set方法,构造函数等)
+	07. Ctrl+E or Alt+Shift+C		最近更改的代码
+	08. Ctrl+R						替换文本
+	09. Ctrl+F						查找文本
 	10. Ctrl+Shift+Space			自动补全代码
 	11. Ctrl+Space					代码提示
 	12. Ctrl+Alt+Space				类名或接口名提示

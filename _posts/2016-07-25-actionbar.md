@@ -19,7 +19,7 @@ categories: jekyll update
 
 ## 自定义ActionBar ##
 
-### 方法1 ###
+### 方法一 ###
 创建一个actionbar.xml
 
 	<?xml version="1.0" encoding="utf-8"?>
