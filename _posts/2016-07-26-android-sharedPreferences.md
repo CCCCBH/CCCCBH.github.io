@@ -20,7 +20,7 @@ categories: jekyll update
 	
 	editor.commit();
 
-### 将数据存储到SharedPreferences中 ###
+### 从SharedPreferences中读取数据 ###
 
 	/**
      * 1.通过getSharedPreferences()方法得到了SharedPreferences对象
