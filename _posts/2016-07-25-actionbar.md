@@ -20,6 +20,7 @@ categories: jekyll update
 ### 自定义ActionBar ###
 
 #### 方法一 ####
+
 创建一个actionbar.xml
 
 	<?xml version="1.0" encoding="utf-8"?>
@@ -56,7 +57,7 @@ categories: jekyll update
 	        android:text="Right" />
 	</LinearLayout>
 
-在onCreate方法中调用下列方法创建一个自定义的actionbar
+在onCreate方法中调用下列方法将自定义的actionbar添加到布局中
 
 	getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
 	getSupportActionBar().setCustomView(R.layout.actionbar);
