@@ -4,9 +4,9 @@ title:  "ActionBar"
 date:   2016-07-23 18:01:09 +0800
 categories: jekyll update
 ---
-# ActionBar #
+## ActionBar ##
 
-## 在ActionBar上添加按钮 ##
+### 在ActionBar上添加按钮 ###
 
 	<!--如果ActionBar空间足够则显示-->
     android:showAsAction="ifRoom"
@@ -17,9 +17,9 @@ categories: jekyll update
     <!--菜单项和它的图标 菜单文本一起显示-->
     android:showAsAction="withText"
 
-## 自定义ActionBar ##
+### 自定义ActionBar ###
 
-### 方法一 ###
+#### 方法一 ####
 创建一个actionbar.xml
 
 	<?xml version="1.0" encoding="utf-8"?>
@@ -66,4 +66,4 @@ categories: jekyll update
 	mButtonLeft.setVisibility(View.INVISIBLE);
 	mButtonRight.setVisibility(View.INVISIBLE);
 
-### 方法二 ###
+#### 方法二 ####
