@@ -25,10 +25,10 @@ categories: jekyll update
 			// 第一种表达方式--->实际在告诉我们任何一个类都有一个隐含的静态成员变量
 			Class class1 = Foo.class;
 	
-			// 第二张表达方式--->已经知道该类的对象通过getClass方法
+			// 第二种表达方式--->已经知道该类的对象通过getClass方法
 			Class class2 = foo1.getClass();
 	
-			// 第三张表达方式--->
+			// 第三种表达方式--->
 			try {
 				Class class3 = Class.forName("完整的类名");
 			} catch (ClassNotFoundException e) {
