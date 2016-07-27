@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Class类的使用"
+title:  "Class类的使用与反射"
 date:   2016-07-27 15:27:29 +0800
 categories: jekyll update
 ---
@@ -52,3 +52,38 @@ categories: jekyll update
 	}
 	
 	class Foo {}
+
+
+### 通过反射了解泛型本质 ###
+
+	import java.lang.reflect.Method;
+	import java.util.ArrayList;
+
+	public class Test {
+	
+		public static void main(String[] args) {
+	
+			ArrayList list1 = new ArrayList();
+	
+			ArrayList<String> list2 = new ArrayList<String>();
+			list2.add("string");
+	
+			Class class1 = list1.getClass();
+			Class class2 = list2.getClass();
+			System.out.println(class1 == class2);
+			// 反射的操作都是编译之后的操作
+			// class1 == class2 true 说明编译之后集合的泛型是去泛型化的（编译之后不存在泛型）
+			// java中集合的泛型是防止错误输入的 只在编译阶段有效 绕过编译就无效了
+			// 通过方法的反射来操作 绕过编译
+			Method method1;
+			try {
+				method1 = class1.getMethod("add", Object.class);
+				//通过方法的反射来操作 绕过编译
+				method1.invoke(list2, 20);
+				System.out.println(list2);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+	
+	}
